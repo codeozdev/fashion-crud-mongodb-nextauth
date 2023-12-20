@@ -1,7 +1,7 @@
-import Featured from '@/components/Featured'
-import GoodDesing from '@/components/GoodDesing'
-import Hero from '@/components/Hero'
-import RetailShop from '@/components/RetailShop'
+import Featured from '@/components/home/Featured'
+import GoodDesing from '@/components/home/GoodDesing'
+import Hero from '@/components/home/Hero'
+import RetailShop from '@/components/home/RetailShop'
 
 export default function Home() {
   return (

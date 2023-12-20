@@ -10,19 +10,29 @@ export default function Header() {
       </h3>
       <ul className='flex gap-10 '>
         <li>
-          <Link href='/'>Home</Link>
+          <Link href='/' className='hover:text-primary'>
+            Home
+          </Link>
         </li>
         <li>
-          <Link href='/story'>Story</Link>
+          <Link href={'/story'} className='hover:text-primary'>
+            Story
+          </Link>
         </li>
         <li>
-          <Link href='/products'>Products</Link>
+          <Link href='/products' className='hover:text-primary'>
+            Products
+          </Link>
         </li>
         <li>
-          <Link href='/faqs'>FAQs</Link>
+          <Link href='/faqs' className='hover:text-primary'>
+            FAQs
+          </Link>
         </li>
         <li>
-          <Link href='/contact'>Contact</Link>
+          <Link href='/contact' className='hover:text-primary'>
+            Contact
+          </Link>
         </li>
       </ul>
       <div>

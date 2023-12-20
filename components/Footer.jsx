@@ -33,7 +33,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className='h-[176px] '>
+        <div className='h-[176px]'>
           <h2 className='text-[2rem] font-[900]'>Social</h2>
           <div className='flex items-center justify-center gap-4'>
             <FaYoutube />
