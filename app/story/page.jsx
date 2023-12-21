@@ -6,7 +6,7 @@ import SlideShow from '@/components/story/SlideShow'
 export default function StoryPage() {
   return (
     <div>
-      {/*Image*/}
+      {/*GRID*/}
       <div className='grid grid-cols-2 place-items-center gap-20 3xl:gap-5 bg-[#eff8ff]'>
         <div>
           <h2 className='text-[4rem] font-extrabold'>
@@ -22,7 +22,7 @@ export default function StoryPage() {
           alt='retail'
           width={1920}
           height={1080}
-          className='object-cover w-full 3xl:h-[80%] object-top'
+          className='object-cover w-full object-top'
           quality={100}
           priority={true}
         />

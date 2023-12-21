@@ -10,27 +10,37 @@ export default function Header() {
       </h3>
       <ul className='flex gap-10 '>
         <li>
-          <Link href='/' className='hover:text-primary'>
+          <Link
+            href='/'
+            className='hover:text-primary hover:underline underline-offset-8 decoration-2 decoration-neutral-500'>
             Home
           </Link>
         </li>
         <li>
-          <Link href={'/story'} className='hover:text-primary'>
+          <Link
+            href={'/story'}
+            className='hover:text-primary hover:underline underline-offset-8 decoration-2 decoration-neutral-500'>
             Story
           </Link>
         </li>
         <li>
-          <Link href='/products' className='hover:text-primary'>
+          <Link
+            href='/products'
+            className='hover:text-primary hover:underline underline-offset-8 decoration-2 decoration-neutral-500'>
             Products
           </Link>
         </li>
         <li>
-          <Link href='/faqs' className='hover:text-primary'>
+          <Link
+            href='/faqs'
+            className='hover:text-primary hover:underline underline-offset-8 decoration-2 decoration-neutral-500'>
             FAQs
           </Link>
         </li>
         <li>
-          <Link href='/contact' className='hover:text-primary'>
+          <Link
+            href='/contact'
+            className='hover:text-primary hover:underline underline-offset-8 decoration-2 decoration-neutral-500'>
             Contact
           </Link>
         </li>

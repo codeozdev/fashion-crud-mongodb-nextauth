@@ -2,23 +2,23 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { FaHeart } from 'react-icons/fa'
 
-export default function Featured() {
+export default function Popular() {
   return (
-    <div className='my-20 container'>
-      <h1 className='text-center'>Featured Products</h1>
+    <div className='my-20 container pb-10'>
+      <h1 className='text-center'>Popular</h1>
       {/* GRID */}
       <div className='grid grid-cols-3 gap-10'>
         <div className='mt-5'>
           <div className='relative'>
             <Image
-              src={'/featured/1.jpeg'}
+              src={'/products/1.jpeg'}
               alt='desing'
               width={700}
               height={700}
               className='object-cover'
             />
             <p className='absolute top-5 left-5 bg-white py-2 px-4 text-sm font-semibold'>
-              New Arrival
+              Trending
             </p>
             <FaHeart
               className='absolute top-5 right-5  fill-white hover:fill-red-500 cursor-pointer'
@@ -27,8 +27,8 @@ export default function Featured() {
           </div>
           <div className='p-8'>
             <div className='flex items-center justify-between'>
-              <h3>Tree pot</h3>
-              <p className='text-neutral-500'>$25</p>
+              <h3>Package</h3>
+              <p className='text-neutral-500'>$50</p>
             </div>
             <p className='text-sm text-neutral-600'>
               Original package design from house
@@ -39,15 +39,13 @@ export default function Featured() {
         <div className='mt-5'>
           <div className='relative'>
             <Image
-              src={'/featured/2.jpeg'}
+              src={'/products/2.jpeg'}
               alt='desing'
               width={700}
               height={700}
               className='object-cover'
             />
-            <p className='absolute top-5 left-5 bg-white py-2 px-4 text-sm font-semibold'>
-              Low Price
-            </p>
+
             <FaHeart
               className='absolute top-5 right-5  fill-white hover:fill-red-500 cursor-pointer'
               size={30}
@@ -55,17 +53,17 @@ export default function Featured() {
           </div>
           <div className='p-8'>
             <div className='flex items-center justify-between'>
-              <h3>Fashion Set</h3>
-              <p className='text-neutral-500'>$35</p>
+              <h3>Bottle</h3>
+              <p className='text-neutral-500'>$10</p>
             </div>
-            <p className='text-sm text-neutral-600'>Costume Package</p>
+            <p className='text-sm text-neutral-600'>Package desing</p>
           </div>
         </div>
 
         <div className='mt-5'>
           <div className='relative'>
             <Image
-              src={'/featured/3.jpeg'}
+              src={'/products/3.jpeg'}
               alt='desing'
               width={700}
               height={700}
@@ -78,20 +76,15 @@ export default function Featured() {
           </div>
           <div className='p-8'>
             <div className='flex items-center justify-between'>
-              <h3>Juice Drinks</h3>
-              <p className='text-neutral-500'>$45</p>
+              <h3>Medicane</h3>
+              <p className='text-neutral-500'>$200</p>
             </div>
             <p className='text-sm text-neutral-600'>
-              Nature made another world
+              Original desing from house
             </p>
           </div>
         </div>
       </div>
-      <Link
-        href={'/products'}
-        className='font-bold text-sm text-neutral-500 underline underline-offset-8 decoration-2 flex items-center justify-center mt-10 w-full'>
-        VIEW ALL PRODUCTS
-      </Link>
     </div>
   )
 }
