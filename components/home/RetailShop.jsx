@@ -21,9 +21,7 @@ export default function RetailShop() {
           Credits go to Unsplash and FreePik websites for images used in this
           Little Fashion by Tooplate.
         </p>
-        <p className='font-bold text-sm text-neutral-600 mt-10'>
-          EXPLORE PRODUCTS
-        </p>
+        <p className='font-bold text-sm mt-10'>EXPLORE PRODUCTS</p>
       </div>
     </div>
   )

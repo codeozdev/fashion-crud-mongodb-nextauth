@@ -28,11 +28,9 @@ export default function Popular() {
           <div className='p-8'>
             <div className='flex items-center justify-between'>
               <h3>Package</h3>
-              <p className='text-neutral-500'>$50</p>
+              <p>$50</p>
             </div>
-            <p className='text-sm text-neutral-600'>
-              Original package design from house
-            </p>
+            <p className='text-sm'>Original package design from house</p>
           </div>
         </div>
 
@@ -54,9 +52,9 @@ export default function Popular() {
           <div className='p-8'>
             <div className='flex items-center justify-between'>
               <h3>Bottle</h3>
-              <p className='text-neutral-500'>$10</p>
+              <p>$10</p>
             </div>
-            <p className='text-sm text-neutral-600'>Package desing</p>
+            <p className='text-sm'>Package desing</p>
           </div>
         </div>
 
@@ -77,11 +75,9 @@ export default function Popular() {
           <div className='p-8'>
             <div className='flex items-center justify-between'>
               <h3>Medicane</h3>
-              <p className='text-neutral-500'>$200</p>
+              <p>$200</p>
             </div>
-            <p className='text-sm text-neutral-600'>
-              Original desing from house
-            </p>
+            <p className='text-sm'>Original desing from house</p>
           </div>
         </div>
       </div>

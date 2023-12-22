@@ -51,7 +51,7 @@ export default function Characters() {
           />
           <div className='flex-1'>
             <h3>{character.name}</h3>
-            <p className='text-neutral-500 font-bold'>{character.role}</p>
+            <p className='font-bold'>{character.role}</p>
           </div>
           <div className=' '>
             <ModalShow

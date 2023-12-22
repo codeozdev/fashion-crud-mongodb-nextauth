@@ -28,11 +28,9 @@ export default function Featured() {
           <div className='p-8'>
             <div className='flex items-center justify-between'>
               <h3>Tree pot</h3>
-              <p className='text-neutral-500'>$25</p>
+              <p>$25</p>
             </div>
-            <p className='text-sm text-neutral-600'>
-              Original package design from house
-            </p>
+            <p className='text-sm'>Original package design from house</p>
           </div>
         </div>
 
@@ -56,9 +54,9 @@ export default function Featured() {
           <div className='p-8'>
             <div className='flex items-center justify-between'>
               <h3>Fashion Set</h3>
-              <p className='text-neutral-500'>$35</p>
+              <p>$35</p>
             </div>
-            <p className='text-sm text-neutral-600'>Costume Package</p>
+            <p className='text-sm'>Costume Package</p>
           </div>
         </div>
 
@@ -79,17 +77,15 @@ export default function Featured() {
           <div className='p-8'>
             <div className='flex items-center justify-between'>
               <h3>Juice Drinks</h3>
-              <p className='text-neutral-500'>$45</p>
+              <p>$45</p>
             </div>
-            <p className='text-sm text-neutral-600'>
-              Nature made another world
-            </p>
+            <p className='text-sm'>Nature made another world</p>
           </div>
         </div>
       </div>
       <Link
         href={'/products'}
-        className='font-bold text-sm text-neutral-500 underline underline-offset-8 decoration-2 flex items-center justify-center mt-10 w-full'>
+        className='font-bold text-sm text-gray-600 underline underline-offset-8 decoration-2 flex items-center justify-center mt-10 w-full'>
         VIEW ALL PRODUCTS
       </Link>
     </div>

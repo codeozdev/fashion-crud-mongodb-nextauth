@@ -6,7 +6,7 @@ export default function Modal({ children, modalOpen, setModalOpen }) {
           <div className='flex justify-center items-center h-full'>
             <div className='flex flex-col bg-white text-black w-1/2 p-5 items-center'>
               <button
-                className='text-5xl ml-auto text-neutral-500'
+                className='text-5xl ml-auto'
                 onClick={() => setModalOpen(false)}>
                 &times;
               </button>

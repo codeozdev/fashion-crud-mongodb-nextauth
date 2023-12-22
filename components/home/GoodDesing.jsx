@@ -90,42 +90,38 @@ export default function GoodDesing() {
               fashion
             </h2>
 
-            <p className='3xl:text-[1.25rem] text-neutral-500 max-w-md my-5 3xl:my-10'>
+            <p className='3xl:text-[1.25rem] max-w-md my-5 3xl:my-10'>
               Little Fashion templates comes with sign in / sign up pages,
               product listing / product detail, about, FAQs, and contact page.
             </p>
 
-            <p className='3xl:text-[1.25rem]3xl:text-[1.25rem] text-neutral-500 max-w-md'>
+            <p className='3xl:text-[1.25rem]3xl:text-[1.25rem] max-w-md'>
               Little Fashion templates comes with sign in / sign up pages,
               product listing / product detail, about, FAQs, and contact page.
             </p>
-            <p className='font-bold text-sm text-neutral-600 mt-3'>
-              LEARN MORE ABOUT US
-            </p>
+            <p className='font-bold text-sm mt-3'>LEARN MORE ABOUT US</p>
           </div>
         )}
 
         {how && (
           <div>
             <h2 className='text-[2rem] font-bold'>Life at Studio</h2>
-            <p className='3xl:text-[1.25rem] text-neutral-500 max-w-md my-5 3xl:my-5'>
+            <p className='3xl:text-[1.25rem] max-w-md my-5 3xl:my-5'>
               Over three years in business, We{"'"}ve had the chance to work on
               a variety of projects, with companies
             </p>
 
-            <p className='3xl:text-[1.25rem]3xl:text-[1.25rem] text-neutral-500 max-w-md'>
+            <p className='3xl:text-[1.25rem]3xl:text-[1.25rem] max-w-md'>
               Custom work is branding, web design, UI/UX design
             </p>
-            <p className='font-bold text-sm text-neutral-600 mt-24'>
-              WORK WITH US
-            </p>
+            <p className='font-bold text-sm mt-24'>WORK WITH US</p>
           </div>
         )}
 
         {cap && (
           <div>
             <h2 className='text-[2rem] font-bold'>What can help you?</h2>
-            <p className='3xl:text-[1.25rem] text-neutral-500 max-w-md my-5 3xl:my-5'>
+            <p className='3xl:text-[1.25rem] max-w-md my-5 3xl:my-5'>
               Over three years in business, We{"'"}ve had the chance on projects
             </p>
 
@@ -146,9 +142,7 @@ export default function GoodDesing() {
                 <h3 className='font-bold pl-3'>80%</h3>
               </div>
             </div>
-            <p className='font-bold text-sm text-neutral-600 mt-6 3xl:mt-12'>
-              WORK WITH US
-            </p>
+            <p className='font-bold text-sm mt-6 3xl:mt-12'>WORK WITH US</p>
           </div>
         )}
       </div>
