@@ -5,9 +5,9 @@ import { BsBasket3 } from 'react-icons/bs'
 export default function Header() {
   return (
     <div className='container flex items-center justify-between py-10'>
-      <h3>
+      <Link href='/' className='text-[1.5rem] font-bold'>
         <span className='text-primary'>Little</span> Fashion
-      </h3>
+      </Link>
       <ul className='flex gap-10 '>
         <li>
           <Link
@@ -32,14 +32,14 @@ export default function Header() {
         </li>
         <li>
           <Link
-            href='/faqs'
+            href={'/faqs'}
             className='hover:text-primary hover:underline underline-offset-8 decoration-2 decoration-neutral-500'>
             FAQs
           </Link>
         </li>
         <li>
           <Link
-            href='/contact'
+            href={'/contact'}
             className='hover:text-primary hover:underline underline-offset-8 decoration-2 decoration-neutral-500'>
             Contact
           </Link>

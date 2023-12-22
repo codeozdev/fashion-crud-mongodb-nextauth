@@ -8,11 +8,11 @@ export default function SlideShow({ image, title, description, button }) {
         {/* TEXT */}
         <div className='absolute sm:bottom-24 3xl:bottom-52 left-[28.125rem] z-50 space-y-10'>
           <div className='text-[4rem] font-[900] text-white'>{title}</div>
-          <p className='text-[1.5rem] text-neutral-100 w-[50rem] mb-10'>
+          <p className='text-[1.5rem] text-gray-400 w-[50rem] mb-10'>
             {description}
           </p>
           <div className='rounded-lg bg-black text-white font-bold py-5 px-8 w-fit'>
-            <Link href={'/'} className='text-base '>
+            <Link href={'/contact'} className='text-base '>
               {button}
             </Link>
           </div>
@@ -28,7 +28,8 @@ export default function SlideShow({ image, title, description, button }) {
             quality={100}
             priority={true}
           />
-          <div className='bg-black/20 absolute inset-0' />
+          {/*OVERLAY*/}
+          <div className='bg-black/30 absolute inset-0' />
         </div>
       </div>
     </div>

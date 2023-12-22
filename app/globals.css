@@ -10,4 +10,12 @@
   h3 {
     @apply text-[1.5rem] font-bold;
   }
+
+  input {
+    @apply w-full rounded outline-none border-2 border-gray-400 p-4 text-xl text-gray-700 my-4
+  }
+
+  p{
+    @apply text-xl text-gray-600 my-4
+  }
 }
