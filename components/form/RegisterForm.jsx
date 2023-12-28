@@ -48,7 +48,7 @@ export default function RegisterForm() {
         className='flex flex-col items-center justify-center h-full gap-3'
         onSubmit={handleSubmit}>
         <h1>Register</h1>
-        <div className='w-full select-none sm:space-y-2 3xl:space-y-0'>
+        <div className='w-full select-none sm:space-y-2'>
           <input
             type='email'
             placeholder='Email'
@@ -56,7 +56,7 @@ export default function RegisterForm() {
             autoComplete='on'
             onChange={(e) => setEmail(e.target.value)}
             value={email}
-            className='sm:my-0 3xl:my-4'
+            className='sm:my-0 '
           />
           <input
             type='text'

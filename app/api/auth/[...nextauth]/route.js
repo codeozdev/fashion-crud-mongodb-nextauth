@@ -6,7 +6,7 @@ import bcrypt from 'bcryptjs'
 export const options = {
   providers: [
     CredentialsProvider({
-      name: 'Credentials',
+      name: 'credentials',
       credentials: {},
       async authorize(credentials) {
         const { email, password } = credentials
@@ -19,11 +19,13 @@ export const options = {
 
           if (!user) {
             console.log('User not found')
+            return null
           }
 
           const isPasswordValid = await bcrypt.compare(password, user.password)
           if (!isPasswordValid) {
             console.log('Password is not valid')
+            return null
           }
 
           return user

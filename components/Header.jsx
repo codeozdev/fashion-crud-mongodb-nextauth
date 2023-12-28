@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { FaRegUser } from 'react-icons/fa'
 import { BsBasket3 } from 'react-icons/bs'
 import { ToastContainer } from 'react-toastify'
+import UserState from '@/components/UserState'
 
 export default function Header() {
   return (
@@ -48,15 +49,7 @@ export default function Header() {
             </Link>
           </li>
         </ul>
-        <div className='flex items-center'>
-          <Link href={'/login'} className='mr-4'>
-            Login
-          </Link>
-          <Link href={'/account'}>
-            <FaRegUser className='inline-block mr-5' size={18} />
-          </Link>
-          <BsBasket3 className='inline-block' size={18} />
-        </div>
+        <UserState />
       </div>
       <ToastContainer
         position='top-center'

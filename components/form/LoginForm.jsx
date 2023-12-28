@@ -30,7 +30,7 @@ export default function LoginForm() {
         toast.success('Logged in successfully')
         router.push('/')
       } else {
-        toast.error(res.error)
+        toast.error('Incorrect email or password')
       }
     } catch (error) {
       toast.error(error.response.data)
@@ -45,7 +45,7 @@ export default function LoginForm() {
         <h1>Login</h1>
         <div className='w-full space-y-3 select-none'>
           <input
-            type='text'
+            type='email'
             placeholder='Email'
             name='email'
             autoComplete='on'
